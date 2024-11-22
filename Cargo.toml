@@ -32,5 +32,5 @@ serial_test = "3.0.0"
 [features]
 default = ["std"]
 std = ["embedded-io/std", "log"]
-no_std = ["defmt"]
+no_std = []
 tls = []
